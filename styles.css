@@ -1,0 +1,540 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+
+
+.container {
+    box-sizing: border-box;
+}
+
+/* ============== HEADER================ */
+.header-col {
+    margin-top: 40px;
+}
+
+.home-section-bg {
+    background-image: url(assets/cofee-bg-home.png) ;
+    background-repeat: no-repeat;
+    height: 805px;
+    width: 100%;
+}
+ 
+.logo {
+    display: flex;
+}
+
+.logo-h1 {
+    margin-top: 120px;
+    color: white;
+    font-size: 28px;
+    margin-left: 5px;
+}
+
+.logo-img {
+    width: 30px;
+    height: 40px;
+    margin-top: 120px;
+    margin-left: 15px;
+}
+
+.a-header {
+   margin-left: 20px;
+   margin-top: 120px;
+}
+
+a {
+    margin-left: 20px;
+}
+
+/* =================== BUTTON STYLES =============== */
+
+.button
+{
+  display: block;
+  margin: 40px 0;
+  width: 247px;
+  height: 58px;
+  border: none;
+  background-color: #ff4a00;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+  transition: .3s linear;
+  margin-right: 200px;
+}
+
+.btn1:hover {
+    transform: rotateX(15deg);
+    box-shadow: 0 15px 15px #555657;
+  }
+
+
+/* ============== HOME SECTION =============== */
+
+.sect1-h1 {
+    font-family: CormorantGaramond;
+    font-size: 72px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.text-section {
+    padding-top: 231px;
+    padding-left: 60px;
+}
+
+.home-h4 {
+    color: #ff4c00;
+    font-family: CormorantGaramond;
+}
+.home-para {
+    color: #30405a;
+}
+
+
+
+/* ============== PRODUCTS SECTION =============== */
+
+.coffee-row-section {
+    position: relative;
+    height: 820px;
+}
+
+.img-dark-coffee {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.sect1-h1 {
+    margin-right: 200px;
+    
+}
+
+.coldcoffe-h1 {
+    margin-left: 200px;
+    font-family: CormorantGaramond;
+    font-size: 72px;
+}
+
+.coldcoffe-btn {
+    margin-left: 400px;
+}
+
+.darkcoffee-section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-coffee-column1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    height: 820px;
+}
+
+.dark-coffee-column-bg {
+    background-image: url(assets/Shape1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.cold-coffee-column-bg {
+    background-image: url(assets/Shape2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.hot-coffee-column-bg {
+    background-image: url(assets/Shape3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dark-coffee-column2-text {
+    text-align: center;
+    color: aliceblue;
+    margin-left: 208px;
+    margin-top: 300px;
+}
+
+.cold-coffe-para {
+    text-align: center;
+    color: aliceblue;
+    margin-right: 208px;
+    margin-top: 300px;
+}
+
+
+/* ============== GIFT VOUCHER =============== */
+
+.gift-voucher-section {
+   
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 634px;
+    border-width: 1px;
+    border-bottom: solid;
+    border-top: solid;
+    width: 100%;
+}
+
+.gift-section-row {
+    border-style: solid;
+    border-width: 6px;
+    height: 587px;   
+}
+
+.col1-gift-voucher {
+    text-align: center;  
+}
+
+.col2-gift-voucher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-gift {
+    font-size: 60px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.voucher-para {
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.voucher-btn {
+    background-color: #f2b59c;
+    display: block;
+    width: 330px;
+    height: 60px;
+    color: #112341;
+    font-size: 26px;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s linear;
+    border:solid 2px #ff4a00;
+    margin-right: 20px;
+}
+
+.span {
+    height: 428px;
+    width: 428px;
+    border-radius: 300px;
+    background-color:#000b2c;
+    display: inline-block;
+    border: 8px solid #ff4a00;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.span-h1 {
+    color: white;
+    margin-top: 35px;
+    font-size: 72px;
+
+}
+
+.logo-span {
+    width: 82px;
+    height: 101px;
+    margin-top: 70px;
+}
+
+.leaf {
+    width: 247px;
+    height: 200px;
+    margin-left: 251px;
+    margin-top: -46px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+
+/* ============== ABOUT US SECTION =============== */
+
+.about-us-section {
+    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-width: 0px;
+    border-style: solid;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: #f6f6f4;
+    width: 100%;
+}
+
+.headingh2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about-section-para {
+    margin-top: 80px;
+}
+
+/* ============== CUSTOMER REVIEW SECTION =============== */
+
+.customer-review-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.cutomer-child-sect {
+    background-color: #000b2c;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    
+}
+
+.customer-review-column {
+    height: 786px;
+}
+
+.customer-text-sect {
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.customer-review-h1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* ============== TIME SECTION =============== */
+
+.time-section {
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 50px;
+   width: 100%;
+
+}
+
+.time-section-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-time-section {
+    background-color: #233e6a;
+}
+
+.time-section-h1 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.time-section-h2 {
+    color: white;
+}
+
+/* ============== BRANCHES SECTION =============== */
+
+.row-branch-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1-branch-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    width: 360px;
+    height: 580px;
+}
+
+
+.card-body {
+    background-color: #233e6a;
+}
+
+.card-text {
+    background-color: #000b2c;
+    color: white;
+    text-align: center;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    height: 214px;
+    width: 326px;
+    margin-left: 8px;
+    margin-top: 80px;
+}
+
+.rectangle1::after {
+        content: "New York";
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        width: 247px;
+        height: 70px;
+        background-image: url(assets/Rounded\ Rectangle.png);
+        background-repeat: no-repeat;
+        text-align: center;
+        margin-left: -33px;
+        margin-top: 2px;
+}
+
+.rectangle2::after {
+    content: "Texas";
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 247px;
+    height: 70px;
+    background-image: url(assets/Rounded\ Rectangle.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: -33px;
+    margin-top: 2px;
+}
+
+.rectangle3::after {
+    content: "New Jersy";
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    width: 247px;
+    height: 70px;
+    background-image: url(assets/Rounded\ Rectangle.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: -33px;
+    margin-top: 2px;
+}
+
+/* ============== CONTACT US SECTION =============== */
+.contact-us-section {
+   /* height: 440px; */
+   background-color: #000b2c;
+   width: 100%;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+.h1-contact-us {
+    margin-left: 15px;
+    margin-top: 14px;
+    color: white;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.h3-contact-us {
+    font-size: 10.625178px;
+    color: white;
+    margin-left: 18px;
+}
+
+.row-contact-us-section {
+    
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.a-contact-us-section {
+    color: white;
+    font-size: 12px;
+    padding-top: .3125rem;
+     padding-bottom: .3125rem;
+     margin-right: 1rem;
+     font-size: 7.079025px;
+     text-decoration: none;
+     white-space: nowrap;
+
+}
+
+.ul-contact-us {
+    display: flex;
+    flex-direction: column;
+}
+.contact-us-column {
+    display: flex;
+    /* margin-left: 32px; */
+}
+
+.contact-us-logo {
+    height: 38px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+/* ==================== FOOTER SECTION ==================== */
+
+.footer-row {
+    background-color: #000b2c;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.footer-ul {
+ display: flex;
+}
+
+.footer-col-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.footer-list {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    margin-top: 5px;
+    font-size: 12px;    
+}
+
+.footer-icon {
+    width: 23px;
+    height: 18px;
+    
+}
